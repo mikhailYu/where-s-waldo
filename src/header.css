@@ -1,0 +1,36 @@
+.pkmnToFindCont,
+.pkmnToFind,
+.timerCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pkmnToFindCont {
+  width: 80%;
+  height: 100%;
+  flex-wrap: nowrap;
+
+  gap: 50px;
+}
+
+.pkmnToFind {
+  align-content: space-around;
+}
+
+.pkmnIcon {
+  width: 100px;
+  height: auto;
+}
+
+.pkmnName {
+  font-size: 80%;
+}
+
+.timerCont {
+  width: 20%;
+  height: 100%;
+  color: white;
+  font-size: 100%;
+}

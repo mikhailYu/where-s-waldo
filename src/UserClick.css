@@ -1,0 +1,51 @@
+.clickedCont,
+.clickedCont,
+.pkmnListCont,
+.pkmnListCont > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.clickedCont {
+  position: absolute;
+  flex-direction: column;
+  color: white;
+
+  gap: 30px;
+  height: 400px;
+  width: 150px;
+  z-index: 2;
+}
+
+.targetBox {
+  width: 100px;
+  height: 100px;
+
+  border: 4px dashed rgb(255, 192, 1);
+  border-radius: 10px;
+
+  background-color: rgba(255, 199, 15, 0.404);
+}
+
+.pkmnListCont {
+  gap: 5px;
+}
+
+.pkmnListCont > li {
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.pkmnListCont > li:hover {
+  transform: scale(1.1);
+  background-color: gold;
+  color: rgb(136, 39, 0);
+  cursor: pointer;
+}

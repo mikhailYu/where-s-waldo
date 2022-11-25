@@ -1,0 +1,55 @@
+.preGameCont,
+.preGameNameSubmit,
+.preGameText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.preGameCont {
+  background-color: rgb(59, 59, 59);
+  width: 40%;
+  height: 50%;
+  justify-content: space-evenly;
+  border: 5px solid gold;
+  border-radius: 15px;
+  flex-direction: column;
+  color: white;
+}
+
+.preGameText {
+  text-align: center;
+  font-size: 15px;
+  padding: 0px 100px 0px 100px;
+  gap: 20px;
+}
+
+.preGameNameSubmit {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nameInput {
+  border: 2px solid gold;
+  border-radius: 10px;
+  height: 30px;
+  background-color: rgb(180, 180, 180);
+
+  text-align: center;
+}
+
+.submitName {
+  background-color: gold;
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: all 50ms ease-in-out;
+}
+
+.submitName:hover {
+  cursor: pointer;
+  filter: brightness(2);
+  transform: scale(1.05);
+}

@@ -1,0 +1,78 @@
+.upScroll,
+.rightScroll,
+.leftScroll,
+.downScroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+
+  border: 2px solid rgba(14, 104, 173, 0.75);
+  background-color: rgba(41, 78, 120, 0.823);
+  border-radius: 10px;
+
+  font-size: 60px;
+
+  transition: all 100ms ease-in;
+
+  color: white;
+
+  user-select: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.upScroll:hover,
+.rightScroll:hover,
+.leftScroll:hover,
+.downScroll:hover {
+  border: 2px solid rgba(14, 104, 173, 0.914);
+  background-color: rgba(26, 72, 124, 0.93);
+}
+
+.upScroll:hover,
+.rightScroll:hover,
+.leftScroll:hover {
+  transform: scale(1.05);
+}
+
+.downScroll:hover {
+  transform: scale(1.05) rotate(180deg);
+}
+
+.upScroll,
+.downScroll {
+  width: 400px;
+  height: 60px;
+  left: 40vw;
+  padding-top: 50px;
+  font-size: 90px;
+}
+
+.downScroll {
+  transform: rotate(180deg);
+}
+
+.leftScroll,
+.rightScroll {
+  height: 400px;
+  width: 60px;
+
+  bottom: 25vh;
+}
+
+.leftScroll {
+  left: 3vw;
+}
+
+.rightScroll {
+  left: 95vw;
+}
+
+.upScroll {
+  bottom: 75vh;
+}
+
+.downScroll {
+  top: 85vh;
+}
