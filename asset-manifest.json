@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/where-s-waldo/static/css/main.07c40215.css",
+    "main.js": "/where-s-waldo/static/js/main.46748a66.js",
+    "static/media/baseImg.webp": "/where-s-waldo/static/media/baseImg.12518296400fa6a70222.webp",
+    "static/media/emboar.png": "/where-s-waldo/static/media/emboar.58d6e0f7d3822128f499.png",
+    "static/media/DePixelHalbfett.ttf": "/where-s-waldo/static/media/DePixelHalbfett.519749799470abd72e4e.ttf",
+    "static/media/emolga.png": "/where-s-waldo/static/media/emolga.af8b5052eaab7fda5e18.png",
+    "static/media/jirachi.png": "/where-s-waldo/static/media/jirachi.74dc888425860235fa22.png",
+    "static/media/ninetales.png": "/where-s-waldo/static/media/ninetales.1f5f1fb5a5b977453340.png",
+    "static/media/chimecho.png": "/where-s-waldo/static/media/chimecho.c5885f0f44c19cf80777.png",
+    "index.html": "/where-s-waldo/index.html",
+    "main.07c40215.css.map": "/where-s-waldo/static/css/main.07c40215.css.map",
+    "main.46748a66.js.map": "/where-s-waldo/static/js/main.46748a66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07c40215.css",
+    "static/js/main.46748a66.js"
+  ]
+}
